@@ -22,7 +22,7 @@ project/
 │── education.html
 │── skills.html
 │── contact.html
-└── style(internal)
+└── style(internal,inline,external)
 
 ## Live Demo
 https://prithika0805.github.io/PrithikaVerse/

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quotes API</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>💬 Random Quote Generator</h1>
+    <p>Powered by Public API</p>
+</header>
+
+<section>
+    <button id="fetchQuoteBtn">Get Quote</button>
+
+    <!-- Loading indicator -->
+    <p id="loading" style="display:none;">⏳ Loading...</p>
+
+    <!-- Result display -->
+    <div id="quoteBox">
+        <p id="quoteText"></p>
+        <p id="quoteAuthor"></p>
+    </div>
+
+    <!-- Error message -->
+    <p id="errorMsg"></p>
+</section>
+
+<script src="quotes.js"></script>
+</body>
+</html>
